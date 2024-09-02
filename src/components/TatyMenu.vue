@@ -128,7 +128,7 @@ export default {
       <div
         class="navbarItem"
         :class="{ active: activeItem === 5 }"
-        @click="handleItemClick(4)"
+        @click="handleItemClick(5)"
       >
         <img src="@/assets/img/hex-rectangle.svg" class="hexRectangle" />
         <div class="hexagon">
