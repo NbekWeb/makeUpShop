@@ -142,7 +142,7 @@ export default {
       </div>
     </div>
     <div class="esc">
-      <img src="@/assets/img/esc.png" />
+      <img src="@/assets/img/esc.svg" />
       <div class="font-montserrat">
         <p>Выйти из меню дома</p>
         <span>Кнопка ESC</span>

@@ -125,7 +125,7 @@ export default {
       </div>
     </div>
     <div class="esc">
-      <img src="@/assets/img/esc.png" />
+      <img src="@/assets/img/esc.svg" />
       <div class="font-montserrat">
         <p>Выйти из меню дома</p>
         <span>Кнопка ESC</span>
@@ -169,7 +169,6 @@ export default {
   opacity: 0;
   width: 100%;
   transition: opacity 0.3s ease;
-  
 }
 .hexagon {
   display: flex;
@@ -261,8 +260,10 @@ h2 span {
 .esc p {
   color: #fff;
   font-weight: 700;
+  margin: 0;
 }
 .esc span {
+  margin-top: 4px;
   color: rgba(255, 255, 255, 0.37);
 }
 </style>
