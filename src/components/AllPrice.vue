@@ -28,12 +28,12 @@
 .allPrice {
   width: 100%;
   margin-top: 40px;
+  height: 140px;
 }
 .wrapper {
   padding: 20px 15px;
-  margin-bottom: 20px;
-  width: 100%;
-  height: 140px;
+  margin-bottom: 10px;
+  max-height: 100px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -42,6 +42,7 @@
 .price {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .price p,
 span {
@@ -58,7 +59,7 @@ span {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 .qr div {
   display: flex;

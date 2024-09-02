@@ -34,8 +34,8 @@ export default {
 .extraColor {
   display: flex;
   flex-direction: column;
-  width: 100%;
-  height: 162px;
+  /* width: 100%; */
+  max-height: 138px;
   border: 1px solid rgba(255, 255, 255, 0.05);
   background: rgba(255, 255, 255, 0.05);
   padding: 12px 10px;

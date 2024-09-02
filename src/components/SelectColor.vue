@@ -13,59 +13,59 @@ export default {
 </script>
 
 <template>
-  <div class="scrol-y">
+  <div class="scrolSelectColor">
     <div class="selectColor">
-      <div>
-        <div class="title">
-          <h3 class="font-ibm">ВЫБОР <span>ЦВЕТА</span></h3>
-          <p class="font-readex">
-            Выбере цвет который вам нравится и используйте его на своих
-            прическах
-          </p>
-        </div>
-        <div class="wrapper">
-          <MainColor />
-          <ExtraColor />
-        </div>
+      <div class="title">
+        <h3 class="font-ibm">ВЫБОР <span>ЦВЕТА</span></h3>
+        <p class="font-readex">
+          Выбере цвет который вам нравится и используйте его на своих прическах
+        </p>
       </div>
+      <div class="wrapper">
+        <MainColor />
+        <ExtraColor />
+      </div>
+
       <AllPrice />
     </div>
   </div>
 </template>
 
 <style scoped>
-.scrol-y {
+.scrolSelectColor {
   max-height: calc(100vh - 300px);
   width: 420px;
   overflow-y: auto;
   transition: all 0.5s;
   overflow-x: hidden;
-  
 }
 .selectColor {
   display: flex;
   flex-direction: column;
-  align-items: end;
-  justify-content: space-between;
-  padding-right: 40px;
+  padding-right: 10px;
   height: 100%;
 }
 
-.scrol-y::-webkit-scrollbar {
+.scrolSelectColor::-webkit-scrollbar {
   width: 5px;
 }
 
-.scrol-y::-webkit-scrollbar-track {
+.scrolSelectColor::-webkit-scrollbar-track {
   width: 5px;
   background: rgba(255, 255, 255, 0.07);
 }
 
-.scrol-y::-webkit-scrollbar-thumb {
+.scrolSelectColor::-webkit-scrollbar-thumb {
   background: white;
 }
 
-.scrol-y::-webkit-scrollbar-thumb:hover {
+.scrolSelectColor::-webkit-scrollbar-thumb:hover {
   background: white;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
 }
 
 .title h3 {
@@ -73,20 +73,20 @@ export default {
   font-weight: 700;
   font-size: 24px;
   color: #fff;
+  margin: 0;
 }
 .title h3 span {
   color: #5fd8df;
 }
 .title p {
-  max-width: 215px;
+  max-width: 195px;
   text-align: center;
   font-weight: 300;
   font-size: 12px;
   color: rgba(255, 255, 255, 0.44);
-  margin: 10px 0 20px 0;
+  margin: 10px 0;
 }
 .wrapper {
-  width: 100%;
   display: flex;
   flex-direction: column;
   gap: 20px;

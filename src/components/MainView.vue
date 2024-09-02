@@ -32,11 +32,10 @@ export default {
   width: 100%;
   overflow-y: auto;
   overflow-x: hidden;
-  background-image: url("@/assets/img/car.png");
+  background-image: url("@/assets/img/fon.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  /* border: 1px solid red; */
   display: flex;
   flex-direction: column;
 }
