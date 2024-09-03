@@ -1,8 +1,8 @@
 
 import Vue from "vue";
 import VueRouter from "vue-router";
-import MainView from "../components/MainView.vue";
-import TatyView from "@/components/TatyView.vue";
+import MainView from "../view/main/MainView.vue";
+import TatyView from "@/view/taty/TatyView.vue";
 
 
 Vue.use(VueRouter);

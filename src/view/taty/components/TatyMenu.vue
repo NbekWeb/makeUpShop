@@ -1,10 +1,10 @@
 <script>
-import BodyIcon from "./icon/bodyIcon.vue";
-import HeadIcon from "./icon/headIcon.vue";
-import LeftFootIcon from "./icon/leftFootIcon.vue";
-import LeftIcon from "./icon/leftIcon.vue";
-import RightFootIcon from "./icon/rightFootIcon.vue";
-import RightIcon from "./icon/rightIcon.vue";
+import BodyIcon from "@/components/icon/bodyIcon.vue";
+import HeadIcon from "@/components/icon/headIcon.vue";
+import LeftFootIcon from "@/components/icon/leftFootIcon.vue";
+import LeftIcon from "@/components/icon/leftIcon.vue";
+import RightFootIcon from "@/components/icon/rightFootIcon.vue";
+import RightIcon from "@/components/icon/rightIcon.vue";
 
 export default {
   name: "MenuItem",

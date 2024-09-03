@@ -1,5 +1,5 @@
 <script>
-import PriceCard from "./PriceCard.vue";
+import PriceCard from "@/components/PriceCard.vue";
 
 export default {
   name: "StylePrice",
@@ -24,8 +24,8 @@ export default {
       <PriceCard
         :isActive="activeIndex === i"
         price="22.062.023"
-        styleText="Прическа #1"
-        description="Новый стиль"
+        styleText="Татуировка #1"
+        description="Белый конь"
         @activate="setActive(i)"
         v-for="i of 30"
         :key="i"

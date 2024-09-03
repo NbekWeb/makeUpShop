@@ -1,8 +1,10 @@
 <script>
+import { hairColors } from "@/assets/var.js";
 export default {
   data() {
     return {
       activeIndex: null,
+      hairColors,
     };
   },
   methods: {
@@ -13,27 +15,28 @@ export default {
 };
 </script>
 <template>
-  <div class="mainColor">
-    <h3 class="font-readex">Основной цвет</h3>
+  <div class="extraColor">
+    <h3 class="font-readex">Дополнительный цвет</h3>
     <div class="wrapper">
       <div class="scrol-y">
         <div
           class="colorWrapper"
-          v-for="i of 100"
+          v-for="(color, i) of hairColors"
           :key="i"
           :class="{ active: i === activeIndex }"
           @click="setActive(i)"
         >
-          <div class="color"></div>
+          <div class="color" :style="{ backgroundColor: color }"></div>
         </div>
       </div>
     </div>
   </div>
 </template>
 <style scoped>
-.mainColor {
+.extraColor {
   display: flex;
   flex-direction: column;
+  /* width: 100%; */
   max-height: 138px;
   border: 1px solid rgba(255, 255, 255, 0.05);
   background: rgba(255, 255, 255, 0.05);
@@ -55,17 +58,18 @@ h3 {
   width: 5px;
 }
 
-
+/* Track */
 .wrapper::-webkit-scrollbar-track {
   width: 5px;
   background: rgba(255, 255, 255, 0.07);
 }
 
-
+/* Handle */
 .wrapper::-webkit-scrollbar-thumb {
   background: white;
 }
 
+/* Handle on hover */
 .wrapper::-webkit-scrollbar-thumb:hover {
   background: white;
 }

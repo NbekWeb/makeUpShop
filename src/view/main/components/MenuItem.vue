@@ -1,9 +1,9 @@
 <script>
-import BreastIcon from "./icon/breastIcon.vue";
-import BrowsIcon from "./icon/browsIcon.vue";
-import HairIcon from "./icon/hairIcon.vue";
-import MakeupIcon from "./icon/makeupIcon.vue";
-import MoustacheIcon from "./icon/moustacheIcon.vue";
+import BreastIcon from "@/components/icon/breastIcon.vue";
+import BrowsIcon from "@/components/icon/browsIcon.vue";
+import HairIcon from "@/components/icon/hairIcon.vue";
+import MakeupIcon from "@/components/icon/makeupIcon.vue";
+import MoustacheIcon from "@/components/icon/moustacheIcon.vue";
 
 export default {
   name: "MenuItem",

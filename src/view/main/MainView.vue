@@ -12,9 +12,9 @@
 </template>
 
 <script>
-import MenuItem from "./MenuItem.vue";
-import HairStyle from "./HairStyle.vue";
-import SelectColor from "./SelectColor.vue";
+import MenuItem from "@/view/main/components/MenuItem.vue";
+import HairStyle from "@/view/main/components/HairStyle.vue";
+import SelectColor from "@/view/main/components/SelectColor.vue";
 
 export default {
   name: "App",

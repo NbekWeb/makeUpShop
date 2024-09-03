@@ -9,9 +9,9 @@
 </template>
 
 <script>
-import TatyStyle from "./TatyStyle.vue";
-import TatyMenu from "./TatyMenu.vue";
-import TatyAllPrice from "./TatyAllPrice.vue";
+import TatyStyle from "./components/TatyStyle.vue";
+import TatyMenu from "./components/TatyMenu.vue";
+import TatyAllPrice from "./components/TatyAllPrice.vue";
 
 export default {
   name: "App",
